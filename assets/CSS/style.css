@@ -1,0 +1,26 @@
+
+
+body {
+    background: linear-gradient(70deg, #3B3EEF, pink);
+  }
+  h2,h1,nav,p,.centrer,table,ul{
+    color:aqua;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px;
+    width: 300px;
+}
+  .formnom, .formprenom, .formemail, .formdate, .username, .password, .sign, .text, .age {
+    text-align: center;
+  }
+ul, a {
+    color: white
+}
+.img{ 
+    text-align: right;
+}
+
+ul{
+    text-align: left;
+}

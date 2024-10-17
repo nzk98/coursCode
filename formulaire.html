@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/CSS/style.css">   
+    <title>Formulaire</title>
+</head>
+<body>
+    <header>
+        <img src="assets/img/logo.SVG" alt="Logo de la CCI">
+        <nav>
+            <ul>
+                <!--lien vers d'autre pages-->
+                <li><a href="index.html">accueil</a></li>
+                <li><a href="contact.html">contact</a></li>
+                <li><a href="formulaire.html">Formulaire</a></li>
+                <li><a href="https://www.free.fr" target="_blank">Bouygues Telecom</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form>
+            <!--formulaire-->
+            <div class="formnom">
+            <label for="nom">Nom</label>
+            <input type="nom" id="nom" placeholder="zinck">
+        </div>
+        <div class="formprenom">
+            <label for="prenom">Prénom</label>
+            <input type="prenom" id="prenom" placeholder="nicolas">
+        </div>
+        <div class="formemail">
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="azeazea@aeazea.fr">
+        </div>
+        <div class="formdate">
+            <label for="date">Date de naissance</label>
+            <input type="date" id="date" >
+        </div>    
+        <div class="username">
+            <label for="username">username:</label>
+            <input type="text" id="username" name="username">
+        </div>
+        <div class="password">
+            <label for="pass">password (8 characters  minimum):</label>
+            <input type="password"id="pass"name="password" minlength="8" required>
+        </div>
+        <div class="sign">
+        <input type="submit" value="sign in">
+        </div>
+        <div class="age">
+            <!--select age peut etre d'autre option-->
+            <label for="age">resseigner votre âge</label>
+            <select>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+            </select>
+        </div>
+        <div class="text">
+            <!--textarea rentrez votre texte-->
+            <textarea placeholder="votre texte ici"></textarea>
+        </div>
+        <div>
+            <!--envoyer le formulaire "petite blague avec le type reset"-->
+            <input type="reset" value="Envoyer le formulaire">
+        </div>
+        </form>
+    </main>
+    <footer>
+        <div class="col1">
+            <!--col1-->
+            <address>
+                <p>14 Allée Charles pâthé 18000 Bourges</p>
+                <p><a href="mailto:contact@free.fr">Nous contacter</a></p>
+                <p><a href="tel:0606060606">0606060606</a></p>
+            </address>
+        </div>
+        <div class="col2">
+            <!--col2-->
+            <p>Choisissez nous pour un travail de qualité</p>
+        </div>
+    </footer>
+    
+</body>
+</html>
